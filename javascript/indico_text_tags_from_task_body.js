@@ -1,3 +1,6 @@
+// This onClick javascript button in salesforce will use the body of the task or email, call the Indico.io text tags API
+// and return the top 3 text tags from the task or email.  This API can prove helpful in understanding topics contatined 
+// within a communication thread
 {
   !REQUIRESCRIPT("/soap/ajax/36.0/connection.js")
 } {
